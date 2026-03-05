@@ -1,0 +1,20 @@
+# NancyBot Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core dependencies (already in parent project)
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+yfinance>=0.2.0
+
+# Additional for NancyBot
+seaborn>=0.12.0          # Enhanced visualizations
+requests>=2.31.0          # HTTP requests for data fetching
+beautifulsoup4>=4.12.0    # Web scraping if needed
+lxml>=4.9.0              # XML/HTML parsing
+scipy>=1.10.0            # Statistical functions
+statsmodels>=0.14.0      # Statistical models
+
+# Optional: Advanced analytics
+# quantstats>=0.0.59     # Portfolio analytics (uncomment if needed)
+# ta-lib>=0.4.0          # Technical analysis (requires separate install)
